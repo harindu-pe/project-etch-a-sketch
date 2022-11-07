@@ -83,7 +83,7 @@ body {
 }
 
 .main-container {
-  height: 500px;
+  height: 400px;
   width: 100%;
   flex: 15;
   display: flex;
