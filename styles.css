@@ -8,13 +8,13 @@ body {
   flex-direction: column;
   background-image: linear-gradient(to right, rgb(24, 136, 121), #226092);
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 .heading {
   box-sizing: border-box;
   text-align: center;
-  height: 10vh;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +27,8 @@ body {
 .buttons {
   display: flex;
   justify-content: space-around;
-  height: 10vh;
-  width: 80vw;
+  height: 200 px;
+  width: 60%;
   background-color: blanchedalmond;
   border-radius: 10px;
 }
@@ -37,6 +37,7 @@ body {
   flex: 1;
   background-color: #298ba8;
   text-align: center;
+  height: 70px;
   border-radius: 10px;
   margin: 10px 10px;
   font-weight: bold;
@@ -80,7 +81,7 @@ body {
 }
 
 .main-container {
-  height: 70vh;
+  height: 70%;
   width: 100%;
   background-image: linear-gradient(
     to right,
