@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   background-image: linear-gradient(to right, rgb(24, 136, 121), #226092);
   align-items: center;
+  justify-content: space-between;
   gap: 15px;
 }
 
@@ -22,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: larger;
+  flex: 1;
 }
 
 .buttons {
@@ -31,6 +33,7 @@ body {
   width: 60%;
   background-color: blanchedalmond;
   border-radius: 10px;
+  flex: 1;
 }
 
 .button {
@@ -81,13 +84,9 @@ body {
 }
 
 .main-container {
-  height: 70%;
+  height: 500px;
   width: 100%;
-  background-image: linear-gradient(
-    to right,
-    rgb(24, 136, 121),
-    rgb(34, 96, 146)
-  );
+  flex: 15;
   display: flex;
   justify-content: center;
   align-items: center;
