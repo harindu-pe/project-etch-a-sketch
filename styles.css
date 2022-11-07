@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   background-image: linear-gradient(to right, rgb(24, 136, 121), #226092);
   align-items: center;
+  gap: 30px;
 }
 
 .heading {
@@ -79,7 +80,7 @@ body {
 }
 
 .main-container {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background-image: linear-gradient(
     to right,
