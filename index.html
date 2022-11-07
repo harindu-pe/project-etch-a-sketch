@@ -10,8 +10,26 @@
 </head>
 
 <body>
+    <div class="heading">
+        <h1>Etch-a-Sketch by Blaze</h1>
+        <p style="font-size: large;">Here's a sketchpad for you. Created on 7-Nov-2022.</p>
+    </div>
+    <div class="buttons">
+        <div id="reset" class="button">Reset</div>
+        <div id="black" class="button">Black</div>
+        <div id="rainbow" class="button">Rainbow</div>
+        <div id="opaque" class="button">Opaque</div>
+        <div id="pick" class="button">Pick
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </div>
+        <div id="eraser" class="button">Eraser</div>
+    </div>
 
+    <div class="main-container">
+        <div class="tile-container"></div>
+    </div>
     <script src="script.js"></script>
+
 </body>
 
 </html>
