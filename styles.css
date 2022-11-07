@@ -9,13 +9,13 @@ body {
   background-image: linear-gradient(to right, rgb(24, 136, 121), #226092);
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
+  gap: 10px;
 }
 
 .heading {
   box-sizing: border-box;
   text-align: center;
-  height: 100px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,6 @@ body {
 .buttons {
   display: flex;
   justify-content: space-around;
-  height: 200 px;
   width: 60%;
   background-color: blanchedalmond;
   border-radius: 10px;
